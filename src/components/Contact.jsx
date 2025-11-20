@@ -54,7 +54,7 @@ Message: ${form.message}
             <p>
               📧{" "}
               <a
-                href="mailto:contact.bytebub@grtengg.co.in"
+                href="mailto:contact@bytebub.in"
                 className="text-blue-600 underline"
               >
                 contact@bytebub.in

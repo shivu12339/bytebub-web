@@ -27,7 +27,7 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-2">Contact</h4>
           <p className="text-gray-300 text-sm">
-            📧 <a href="mailto:contact.bytebub@grtengg.co.in" className="hover:text-blue-600">contact.bytebub@grtengg.co.in</a>
+            📧 <a href="mailto:contact@bytebub.in" className="hover:text-blue-600">contact@bytebub.in</a>
           </p>
           <p className="text-gray-300 text-sm mt-2">📞 +91-8073343628</p>
           <p className="text-gray-300 text-sm mt-2">📍 Bengaluru, India</p>
