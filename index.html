@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ByteBub</title>
+
+    <meta
+      name="description"
+      content="ByteBub - Custom web, mobile, and full-stack solutions. Built with modern UI/UX, performance, and innovation."
+    />
+    <meta name="theme-color" content="#0ea5a3" />
+
+    <!-- ✅ Correct Favicon Location (place logo6.png inside /public folder) -->
+    <link rel="icon" type="image/png" href="/logo6.png" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animations -->
+    <link
+      href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- SEO -->
+    <meta property="og:title" content="ByteBub — Modern Digital Engineering" />
+    <meta
+      property="og:description"
+      content="We design and build high-performance web, mobile, and cloud applications with modern technologies."
+    />
+    <meta property="og:image" content="/bytebub-banner.png" />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body class="antialiased bg-gray-50 font-poppins text-dark">
+    <div id="root"></div>
+
+    <!-- Main React app -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true, duration: 700 });
+    </script>
+  </body>
+</html>
